@@ -1,7 +1,7 @@
 const app = Vue.createApp({
     data() {
         return {
-            cart:0,
+            cart: 0,
             product: 'Socks',
             brand: 'Vue Mastery',
             selectedVariant: 0,
@@ -29,6 +29,6 @@ const app = Vue.createApp({
         },
         inStock() {
             return this.variants[this.selectedVariant].quantity
-        }
+        },
     }
 })
